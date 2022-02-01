@@ -2,18 +2,6 @@
 
 Created via `wrangler generate miniflare-168 https://github.com/cloudflare/worker-template` to reproduce https://github.com/cloudflare/miniflare/issues/168
 
-# 👷 `worker-template` Hello World
-
-A template for kick starting a Cloudflare worker project.
-
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
-
-#### Wrangler
-
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+- [index.js](index.js) defines a simple worker to fetch https://example.com/ and use TransformStream to uppercase the response.
+- Running `npm run miniflare` will launch the worker in Miniflare and the response will be uppercased.
+- Running `wrangler dev` will launch the worker in Wrangler and the response will not be uppsercased.
