@@ -1,3 +1,7 @@
+# Note
+
+Created via `wrangler generate miniflare-168 https://github.com/cloudflare/worker-template` to reproduce https://github.com/cloudflare/miniflare/issues/168
+
 # 👷 `worker-template` Hello World
 
 A template for kick starting a Cloudflare worker project.
