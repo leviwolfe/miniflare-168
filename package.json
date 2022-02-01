@@ -5,11 +5,13 @@
   "description": "A template for kick starting a Cloudflare Workers project",
   "main": "index.js",
   "scripts": {
+    "miniflare": "miniflare index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "license": "MIT",
   "devDependencies": {
+    "miniflare": "^2.2.0",
     "prettier": "^1.18.2"
   }
 }
