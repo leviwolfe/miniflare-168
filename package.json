@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "miniflare": "^2.2.0",
+    "miniflare": "^2.13.0",
     "prettier": "^1.18.2"
   }
 }
